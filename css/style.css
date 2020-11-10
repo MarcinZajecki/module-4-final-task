@@ -17,7 +17,28 @@
   transform: translate(-50%, -50%);
 }
 
-.splash .splash-inner a {
-  margin: 0 auto;
+@media (max-width: 370px) {
+  .splash .splash-inner h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .splash .splash-inner h1 {
+    font-size: 2.5rem;
+  }
+}
+
+.splash .splash-inner .btn {
+  font-size: 1rem;
+}
+
+.services .card {
+  border: none;
+}
+
+.services .card span {
+  font-size: 2.5rem;
+  border: 3px solid;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,15 @@
 // Global
+@mixin for-mini-phone {
+    @media (max-width: 370px) {
+        @content;
+    }
+}
+
+@mixin for-phone {
+    @media (max-width: 600px) {
+        @content;
+    }
+}
 
 // Splash 
 
@@ -19,9 +30,32 @@
         left: 50%;
         transform: translate(-50%, -50%);
 
-        a {
-            margin: 0 auto;
+        h1 {
+            @include for-mini-phone {
+                font-size: 2rem;
+            }
+
+            @include for-phone {
+                font-size: 2.5rem;
+            }
         }
 
+        .btn {
+            font-size: 1rem;
+        }
+
+    }
+}
+
+// Services
+
+.services {
+    .card {
+        border: none;
+
+        span {
+            font-size: 2.5rem;
+            border: 3px solid;
+        }
     }
 }
