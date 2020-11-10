@@ -5,7 +5,7 @@
 }
 
 .splash .logo-company {
-  font-family: 'Syne Mono', monospace;
+  font-family: 'Satisfy', cursive;
   font-size: 2.5rem;
 }
 
@@ -40,5 +40,18 @@
 .services .card span {
   font-size: 2.5rem;
   border: 3px solid;
+}
+
+.portfolio {
+  background-color: rgba(209, 214, 213, 0.5);
+}
+
+.portfolio .portfolio-elements .card {
+  border: none;
+}
+
+.portfolio .portfolio-elements .card img {
+  height: 250px;
+  object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */

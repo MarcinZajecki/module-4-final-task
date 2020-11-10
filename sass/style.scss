@@ -19,7 +19,7 @@
     position: relative;
 
     .logo-company {
-        font-family: 'Syne Mono', monospace;
+        font-family: 'Satisfy', cursive;
         font-size: 2.5rem;
     }
 
@@ -56,6 +56,24 @@
         span {
             font-size: 2.5rem;
             border: 3px solid;
+        }
+    }
+}
+
+// Portfolio
+.portfolio {
+    background-color: rgba(209, 214, 213, 0.5);
+
+    .portfolio-elements {
+
+        .card {
+            border: none;
+
+
+            img {
+                height: 250px;
+                object-fit: cover;
+            }
         }
     }
 }
