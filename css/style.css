@@ -54,4 +54,12 @@
   height: 250px;
   object-fit: cover;
 }
+
+footer ul {
+  font-size: 0;
+}
+
+footer ul span {
+  font-size: 1.5rem;
+}
 /*# sourceMappingURL=style.css.map */
